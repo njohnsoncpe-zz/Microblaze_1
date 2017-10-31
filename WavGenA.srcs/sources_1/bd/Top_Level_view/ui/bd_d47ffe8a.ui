@@ -1,8 +1,8 @@
 {
    ExpandedHierarchyInLayout: "/microblaze_0_local_memory",
-   comment_1: "Channel shift here,
-m_axis_data_tdata{15:0] = channel 0 raw sign extended
-m_axis_data_tdata{31:16] = channel 1 raw, sign extended
+   comment_1: "Channel shift here:
+m_axis_data_tdata[15:0] = channel 0 raw sign extended
+m_axis_data_tdata[31:16] = channel 1 raw, sign extended
 ",
    commentid: "comment_1|",
    fillcolor_comment_1: "",
@@ -46,29 +46,29 @@ preplace netloc microblaze_0_local_memory|microblaze_0_dlmb_cntlr 1 2 1 N
 preplace netloc axi_quad_spi_0_SPI_0 1 6 1 NJ
 preplace netloc DDS_ch1_Dout 1 3 1 990J
 preplace netloc xlconstant_1_dout 1 3 1 990J
-preplace netloc microblaze_0_mdm_axi 1 2 4 670 20 NJ 20 NJ 20 2440
+preplace netloc microblaze_0_mdm_axi 1 2 4 670 20 NJ 20 NJ 20 2450
 preplace netloc xlconstant_2_dout 1 3 1 NJ
-preplace netloc microblaze_0_local_memory|microblaze_0_ilmb_cntlr 1 2 1 2140
-preplace netloc microblaze_0_local_memory|microblaze_0_Clk 1 0 2 1660 802 1890
-preplace netloc microblaze_0_Clk 1 1 5 220 260 660 390 1000 390 1540 620 2490
-preplace netloc microblaze_0_local_memory|SYS_Rst_1 1 0 2 1670 812 1900
+preplace netloc microblaze_0_local_memory|microblaze_0_ilmb_cntlr 1 2 1 2150
+preplace netloc microblaze_0_local_memory|microblaze_0_Clk 1 0 2 1670 812 1900
+preplace netloc microblaze_0_Clk 1 1 5 220 260 660 340 1000 230 1540 630 2500
+preplace netloc microblaze_0_local_memory|SYS_Rst_1 1 0 2 1680 802 1910
 preplace netloc microblaze_0_axi_periph_M06_AXI 1 5 1 N
-preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 2480
-preplace netloc microblaze_0_intc_axi 1 2 4 630 10 NJ 10 NJ 10 2450
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 2490
+preplace netloc microblaze_0_intc_axi 1 2 4 630 10 NJ 10 NJ 10 2460
 preplace netloc microblaze_0_interrupt 1 3 1 N
 preplace netloc microblaze_0_M_AXI_DC 1 4 1 1500
 preplace netloc microblaze_0_ilmb_1 1 4 1 1510
 preplace netloc sys_clock_1 1 0 1 NJ
 preplace netloc microblaze_0_local_memory|microblaze_0_dlmb_bus 1 1 1 N
-preplace netloc microblaze_0_axi_periph_M05_AXI 1 5 1 2460
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 5 1 2470
 preplace netloc microblaze_0_axi_dp 1 4 1 1480
 preplace netloc dds_compiler_0_m_axis_data_tdata 1 2 1 650
 preplace netloc xlconstant_0_dout 1 3 1 NJ
-preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 3 630J 370 NJ 370 1530
-preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 NJ 340 NJ 340 1480
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 3 NJ 380 990J 240 1530
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 630J 350 NJ 350 1480
 preplace netloc axi_gpio_0_GPIO2 1 6 1 NJ
 preplace netloc microblaze_0_M_AXI_IC 1 4 1 1520
-preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 650 380 NJ 380 1500 630 2500
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 650 360 NJ 360 1550 620 2510
 preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 630 330 980
 preplace netloc clk_wiz_1_locked 1 1 1 230
 preplace netloc microblaze_0_local_memory|microblaze_0_ilmb_bus 1 1 1 N
@@ -76,17 +76,17 @@ preplace netloc axi_uartlite_0_UART 1 6 1 NJ
 preplace netloc axi_iic_0_IIC 1 6 1 NJ
 preplace netloc axi_gpio_0_GPIO 1 6 1 NJ
 preplace netloc DDS_ch0_Dout 1 3 1 990J
-preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 2470
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 2480
 preplace netloc microblaze_0_dlmb_1 1 4 1 1490
 preplace netloc microblaze_0_local_memory|microblaze_0_ilmb 1 0 1 N
 preplace netloc microblaze_0_debug 1 3 1 970
-preplace netloc rst_clk_wiz_1_100M_peripheral_reset 1 2 2 NJ 360 980
+preplace netloc rst_clk_wiz_1_100M_peripheral_reset 1 2 2 630J 390 980
 preplace netloc reset_1 1 0 2 20 340 NJ
 preplace netloc mdm_1_debug_sys_rst 1 1 3 230 270 640J 320 970
 preplace netloc xlconstant_3_dout 1 3 1 970J
-preplace cgraphic comment_1 place top 1149 248 textcolor 4 linecolor 3 linewidth 2
-levelinfo -pg 1 0 120 430 820 1240 1680 2640 2800 -top 0 -bot 1000
-levelinfo -hier microblaze_0_local_memory * 1780 2020 2270 *
+preplace cgraphic comment_1 place bot 1129 -373 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 0 120 430 820 1240 1690 2650 2810 -top 0 -bot 1000
+levelinfo -hier microblaze_0_local_memory * 1790 2030 2280 *
 ",
    linecolor_comment_1: "",
    textcolor_comment_1: "",
