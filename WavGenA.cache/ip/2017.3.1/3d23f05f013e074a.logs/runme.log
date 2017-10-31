@@ -1,0 +1,49 @@
+
+*** Running vivado
+    with args -log Top_Level_view_dlmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_view_dlmb_bram_if_cntlr_0.tcl
+
+
+****** Vivado v2017.3.1 (64-bit)
+  **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+  **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Top_Level_view_dlmb_bram_if_cntlr_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 363.848 ; gain = 94.785
+INFO: [Synth 8-638] synthesizing module 'Top_Level_view_dlmb_bram_if_cntlr_0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_dlmb_bram_if_cntlr_0/synth/Top_Level_view_dlmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2121]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (2#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2601]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (3#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/0739/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3106]
+INFO: [Synth 8-256] done synthesizing module 'Top_Level_view_dlmb_bram_if_cntlr_0' (4#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_dlmb_bram_if_cntlr_0/synth/Top_Level_view_dlmb_bram_if_cntlr_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 407.934 ; gain = 138.871
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 407.934 ; gain = 138.871
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 659.059 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 659.059 ; gain = 389.996
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 659.059 ; gain = 389.996
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 659.059 ; gain = 389.996
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 659.059 ; gain = 389.996
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 659.059 ; gain = 389.996
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 664.164 ; gain = 395.102
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 664.164 ; gain = 395.102
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     3|
+|2     |LUT3 |     4|
+|3     |FDRE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 683.453 ; gain = 414.391
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:56 . Memory (MB): peak = 686.871 ; gain = 423.016

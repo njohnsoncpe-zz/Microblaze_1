@@ -1,0 +1,98 @@
+
+*** Running vivado
+    with args -log Top_Level_view_auto_pc_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_view_auto_pc_1.tcl
+
+
+****** Vivado v2017.3.1 (64-bit)
+  **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+  **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Top_Level_view_auto_pc_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 370.500 ; gain = 99.234
+INFO: [Synth 8-638] synthesizing module 'Top_Level_view_auto_pc_1' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_auto_pc_1/synth/Top_Level_view_auto_pc_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_incr_cmd' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_wrap_cmd' (2#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_cmd_translator' (3#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_rd_cmd_fsm' (4#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_ar_channel' (5#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4085]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo' (6#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_simple_fifo__parameterized0' (6#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s_r_channel' (7#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3814]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice' (8#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized0' (8#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized1' (8#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized2' (8#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (9#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (10#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized3' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized4' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized5' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axic_register_slice__parameterized6' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:189]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_14_axi_register_slice__parameterized0' (11#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/a259/hdl/axi_register_slice_v2_1_vl_rfs.v:1284]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_b2s' (12#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4229]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_14_axi_protocol_converter' (13#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/33cc/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4811]
+INFO: [Synth 8-256] done synthesizing module 'Top_Level_view_auto_pc_1' (14#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_auto_pc_1/synth/Top_Level_view_auto_pc_1.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 493.094 ; gain = 221.828
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 493.094 ; gain = 221.828
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 715.398 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:14 ; elapsed = 00:01:18 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:21 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Timing Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Technology Mapping : Time (s): cpu = 00:01:31 ; elapsed = 00:01:36 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:01:37 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:01:37 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:01:38 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:32 ; elapsed = 00:01:38 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:01:38 . Memory (MB): peak = 715.398 ; gain = 444.133
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:38 . Memory (MB): peak = 715.398 ; gain = 444.133
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |     9|
+|2     |LUT1    |     3|
+|3     |LUT2    |     7|
+|4     |LUT3    |   131|
+|5     |LUT4    |    18|
+|6     |LUT5    |    31|
+|7     |LUT6    |    60|
+|8     |SRLC32E |    36|
+|9     |FDRE    |   261|
+|10    |FDSE    |    30|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:38 . Memory (MB): peak = 715.398 ; gain = 444.133
+synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:40 . Memory (MB): peak = 715.398 ; gain = 451.344

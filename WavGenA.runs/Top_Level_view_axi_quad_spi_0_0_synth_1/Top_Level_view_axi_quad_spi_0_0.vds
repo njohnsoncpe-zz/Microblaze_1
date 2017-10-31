@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Sat Oct 28 15:04:48 2017
+# Process ID: 10276
+# Current directory: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_axi_quad_spi_0_0_synth_1
+# Command line: vivado.exe -log Top_Level_view_axi_quad_spi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_view_axi_quad_spi_0_0.tcl
+# Log file: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_axi_quad_spi_0_0_synth_1/Top_Level_view_axi_quad_spi_0_0.vds
+# Journal file: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_axi_quad_spi_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Level_view_axi_quad_spi_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 378.719 ; gain = 98.434
+INFO: [Synth 8-638] synthesizing module 'Top_Level_view_axi_quad_spi_0_0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_axi_quad_spi_0_0/synth/Top_Level_view_axi_quad_spi_0_0.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'axi_quad_spi' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:33039]
+INFO: [Synth 8-638] synthesizing module 'axi_quad_spi_top' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:31312]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized0' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized0' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized1' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized1' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized2' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized2' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized3' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized3' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized4' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized4' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized5' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized5' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized6' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized6' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized7' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized7' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized8' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized8' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized9' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized9' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized10' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized10' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized11' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized11' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized12' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized12' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized13' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized13' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized14' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized14' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized15' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized15' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized16' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized16' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized17' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized17' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized18' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized18' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized19' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized19' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized20' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized20' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized21' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized21' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized22' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized22' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized23' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized23' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized24' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized24' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized25' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized25' (1#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'qspi_core_interface' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:17852]
+INFO: [Synth 8-638] synthesizing module 'reset_sync_module' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:2426]
+INFO: [Synth 8-256] done synthesizing module 'reset_sync_module' (5#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:2426]
+INFO: [Synth 8-638] synthesizing module 'cross_clk_sync_fifo_1' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:13595]
+INFO: [Synth 8-256] done synthesizing module 'cross_clk_sync_fifo_1' (6#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:13595]
+INFO: [Synth 8-638] synthesizing module 'async_fifo_fg' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/462e/hdl/lib_fifo_v1_0_rfs.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_async_rst' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1177]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_async_rst' (7#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1177]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (8#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_gray' [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:300]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_gray' (13#1) [C:/Xilinx/Vivado/2017.3/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:300]
+INFO: [Synth 8-256] done synthesizing module 'async_fifo_fg' (32#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/462e/hdl/lib_fifo_v1_0_rfs.vhd:255]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (33#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'counter_f' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:669]
+INFO: [Synth 8-256] done synthesizing module 'counter_f' (34#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:669]
+INFO: [Synth 8-638] synthesizing module 'qspi_fifo_ifmodule' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:12122]
+INFO: [Synth 8-256] done synthesizing module 'qspi_fifo_ifmodule' (35#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:12122]
+INFO: [Synth 8-638] synthesizing module 'qspi_occupancy_reg' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:3647]
+INFO: [Synth 8-256] done synthesizing module 'qspi_occupancy_reg' (36#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:3647]
+INFO: [Synth 8-638] synthesizing module 'qspi_mode_0_module' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:7855]
+INFO: [Synth 8-256] done synthesizing module 'qspi_mode_0_module' (37#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:7855]
+INFO: [Synth 8-638] synthesizing module 'qspi_cntrl_reg' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:12477]
+INFO: [Synth 8-256] done synthesizing module 'qspi_cntrl_reg' (38#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:12477]
+INFO: [Synth 8-638] synthesizing module 'qspi_status_slave_sel_reg' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
+INFO: [Synth 8-256] done synthesizing module 'qspi_status_slave_sel_reg' (39#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
+INFO: [Synth 8-638] synthesizing module 'soft_reset' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
+INFO: [Synth 8-256] done synthesizing module 'soft_reset' (40#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/8e66/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (41#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/8e66/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'qspi_core_interface' (42#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:17852]
+INFO: [Synth 8-256] done synthesizing module 'axi_quad_spi_top' (43#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:31312]
+INFO: [Synth 8-256] done synthesizing module 'axi_quad_spi' (44#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ipshared/5786/hdl/axi_quad_spi_v3_2_rfs.vhd:33039]
+INFO: [Synth 8-256] done synthesizing module 'Top_Level_view_axi_quad_spi_0_0' (45#1) [c:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.srcs/sources_1/bd/Top_Level_view/ip/Top_Level_view_axi_quad_spi_0_0/synth/Top_Level_view_axi_quad_spi_0_0.vhd:97]
+Finished RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 520.074 ; gain = 239.789
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 520.074 ; gain = 239.789
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 737.746 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:51 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 737.746 ; gain = 457.461
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name | RTL Object                                                                                                                                                                                                                                   | Inference      | Size (Depth x Width) | Primitives   | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|U0          | NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 16 x 8               | RAM32M x 2   | 
+|U0          | NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/lib_fifo_instance.USE_2N_DEPTH.V6_S6_AND_LATER.I_ASYNC_FIFO_BRAM/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 16 x 8               | RAM32M x 2   | 
++------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:07 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:08 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     8|
+|2     |LUT2   |    72|
+|3     |LUT3   |    56|
+|4     |LUT4   |    58|
+|5     |LUT5   |   104|
+|6     |LUT6   |    84|
+|7     |RAM32M |     4|
+|8     |SRL16E |     1|
+|9     |FD     |     8|
+|10    |FDCE   |    94|
+|11    |FDPE   |    52|
+|12    |FDR    |    53|
+|13    |FDRE   |   338|
+|14    |FDSE   |    11|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 737.746 ; gain = 457.461
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:14 . Memory (MB): peak = 1077.555 ; gain = 809.797

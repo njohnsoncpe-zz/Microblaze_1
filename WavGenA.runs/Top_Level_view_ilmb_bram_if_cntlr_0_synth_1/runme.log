@@ -1,0 +1,12 @@
+
+*** Running vivado
+    with args -log Top_Level_view_ilmb_bram_if_cntlr_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_view_ilmb_bram_if_cntlr_0.tcl
+
+
+****** Vivado v2017.3.1 (64-bit)
+  **** SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+  **** IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Top_Level_view_ilmb_bram_if_cntlr_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Top_Level_view_ilmb_bram_if_cntlr_0, cache-ID = 41ed7c7881eff1e5.

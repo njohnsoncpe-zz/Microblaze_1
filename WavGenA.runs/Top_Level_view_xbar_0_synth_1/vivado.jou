@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3.1 (64-bit)
+# SW Build 2035080 on Fri Oct 20 14:20:01 MDT 2017
+# IP Build 2034413 on Fri Oct 20 15:56:25 MDT 2017
+# Start of session at: Tue Oct 31 08:24:50 2017
+# Process ID: 1416
+# Current directory: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_xbar_0_synth_1
+# Command line: vivado.exe -log Top_Level_view_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Level_view_xbar_0.tcl
+# Log file: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_xbar_0_synth_1/Top_Level_view_xbar_0.vds
+# Journal file: C:/Users/noahj/Documents/GitHub/WavGenA/WavGenA.runs/Top_Level_view_xbar_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Level_view_xbar_0.tcl -notrace

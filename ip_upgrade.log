@@ -1,0 +1,37 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
+| Date         : Fri Oct 27 15:46:46 2017
+| Host         : DESKTOP-N5QQ8EU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Top_Level_view_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Top_Level_view_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3.1 (win64) Build 2035080 Fri Oct 20 14:20:01 MDT 2017
+| Date         : Fri Oct 27 15:46:46 2017
+| Host         : DESKTOP-N5QQ8EU running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Top_Level_view_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Top_Level_view_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:5.4 (Rev. 2)) to Vivado generation flows.
+
